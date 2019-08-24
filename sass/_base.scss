@@ -1,0 +1,147 @@
+// base
+// @import url('https://fonts.googleapis.com/css?family=Poppins:100,400,500,600,700,900');
+
+// @font-face {
+// 	font-family: 'Flow';
+// 	src: url('../fonts/Flow.eot');
+// 	src: local('☺'), url('../fonts/Flow.woff') format('woff'), url('../fonts/Flow.ttf') format('truetype'), url('../fonts/Flow.svg') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: "Myriad Pro";
+// 	src: url('../fonts/MyriadPro-Regular.eot');
+// 	src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+/*style*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:400,500,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  display: block;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3,h4, h5, h6 {
+	font-weight: 700;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+}
+
+
+.section__title {
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: -3px;
+}
+
+.section__text {
+	font-size: 18px;
+	line-height: 34px;
+}
+
+
+.slick-slide {
+	outline: none;
+}
+
+select {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: black;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: white;
+  cursor: default;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(169, 169, 169);
+  border-image: initial;
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 2px #fff;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  height: 52px;
+  padding: 0 10px;
+  outline: 0 !important;
+} 
+
+input[type="email"] {
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px #fff;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ option {
+  font-size: 0.7em !important;
+  text-align: left;
+  color: #fff;
+  background: #999;
+  // font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
