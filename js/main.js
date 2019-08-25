@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  $("select").styler();
+
   // steps
 
   function showNextStep(el) {
